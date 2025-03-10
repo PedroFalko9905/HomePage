@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+AU+VIC+Guides&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Open Sans", sans-serif;
+    background-image: url(img/header-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+h1{
+    padding-left: 30px;
+    color: white;
+    font-size: 40px;
+}
+
+.botao-nav{
+    display: flex;
+    gap: 50px;
+    padding-right: 40px;
+}
+
+.botao{
+    font-size: 15px;
+    color: white;
+    background: transparent;
+    border: none;
+}
+
+.home{
+    color: rgb(24, 90, 151);
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.home:hover{
+    color: white;
+    transition: .2s;
+}
+
+.tuors:hover{
+    color: rgb(24, 90, 151);
+    text-decoration: underline;
+    transition: .2s;
+}
+
+.explore:hover{
+    color:rgb(24, 90, 151);
+    text-decoration: underline;
+    transition: .2s;
+}
+
+.about:hover{
+    color: rgb(24, 90, 151);
+    text-decoration: underline;
+    transition: .2s;
+}
+
+.contact{
+    padding: 15px 25px;
+    background: rgb(24, 90, 151);
+    border-radius: 50px;
+}
+
+.contact:hover{
+    padding: 12px 23px;
+    background: transparent;
+    border: 2px solid;
+    color: white;
+}
+
+.contact:active{
+    border: 2px solid rgb(184, 184, 184);
+    background: rgb(184, 184, 184);
+    color: black;
+    transition: .2s;
+}
+
+.secprincipal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 85vh;
+    color: white;
+}
+
+.titulo-sec{
+    font-size: 35px;
+}
+
+.linha {
+    width: 200px;
+    height: 4px;
+    border-radius: 50px;
+    background-color: rgb(24, 90, 151);
+    margin: 10px 0;
+}
+
+.segtitulo{
+    margin-top: 15px;
+    font-size: 75px;
+}
+
+.learnmore{
+    font-size: 15px;
+    border: none;
+    color: white;
+    padding: 20px 30px;
+    background: rgb(24, 90, 151);
+    border-radius: 50px;
+}
+
+.learnmore:hover{
+    padding: 18px 28px;
+    background: transparent;
+    border: 2px solid;
+    color: white;
+
+}
+
+.learnmore:active{
+    border: 2px solid rgb(184, 184, 184);
+    background: rgb(184, 184, 184);
+    color: black;
+    transition: .2s;
+}
